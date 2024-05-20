@@ -4,9 +4,10 @@
   | default @import url()
   |============================
 */
+
 @import url('./reset.css');
-@import url('./1-timer.css');
 @import url('./2-snackbar.css');
+@import url('./1-timer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +23,80 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.input {
+  width: 272px;
+    height: 40px;
+    gap: 8px;
+    opacity: 0px;
+}
+
+.button {
+width: 75px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.timer {
+  display: flex;
+  justify-content: start;
+  width: 346px;
+  height: 72px;
+  }
+
+.field{
+  width: 55px;
+  height: 72px;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 0 16px;
+}
+
+.value {
+
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  
+}
+
+fieldset {
+width: 360px;
+  height: 78px;
+ 
+  }
+
+
+.label {
+display: flex;
+flex-wrap: wrap;
+ width: 360px;
+ height: 72px;
+ top: 36px;
+ left: 156px;
+ gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #2E2F42;
+}
+.btn {
+  background-color: #4E75FF;;
+  width: 360px;
+  height: 40px;
+  gap: 10px;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
 }
